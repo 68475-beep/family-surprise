@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>Eid ul Adha Mubarak</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- Stars -->
+  <div class="stars"></div>
+
+  <!-- Moon -->
+  <div class="moon"></div>
+
+  <!-- Gift Box -->
+
+  <div class="gift-box" id="giftBox">
+
+    <div class="gift-lid"></div>
+
+    <div class="gift-body">🎁</div>
+
+  </div>
+
+  <!-- Main Content -->
+
+  <div class="container" id="mainContent">
+
+    <h1 class="title">
+      🌙 Eid ul Adha Mubarak 🌙
+    </h1>
+
+    <h2 class="urdu">
+      عید الاضحیٰ مبارک
+    </h2>
+
+    <p class="message">
+      <span id="typing"></span>
+    </p>
+
+    <div class="from">
+      From: <span>ARIF</span>
+    </div>
+
+    <button id="btn">
+      Celebrate 🎊
+    </button>
+
+  </div>
+
+  <!-- Music -->
+
+  <audio id="islamic" autoplay loop>
+
+    <source src="islamic.mp3" type="audio/mpeg">
+
+  </audio>
+
+  <!-- Music Button -->
+
+  <button class="music-btn"
+          onclick="toggleMusic()">
+
+    🔊 Music
+
+  </button>
+
+  <!-- Fireworks -->
+
+  <canvas id="confetti"></canvas>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
