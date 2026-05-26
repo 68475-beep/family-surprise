@@ -61,7 +61,7 @@ function typeText(){
 
 btn.addEventListener("click", () => {
 
-  alert("🎉 Eid ul Adha Mubarak From IY 🎉");
+  alert("🎉 Eid ul Adha Mubarak From MUHAMMAD AR 🎉");
 
   for(let i = 0; i < 5; i++){
 
